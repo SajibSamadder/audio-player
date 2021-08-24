@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location 90</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+    <section>
+        <div class="audio_wrapper">
+            <div class="top_bar">
+                <span>Now Playing</span>
+            </div>
+            <div class="playing_img_wrapper">
+                <img src="" alt="">
+            </div>
+            <div class="song_details">
+                <span class="song_name">Bangla Song</span>
+                <span class="song_aritest">Sajib</span>
+            </div>
+            <div class="audio_bar_wrapper">
+                <div class="audio_progress">
+                </div>
+                <audio src="" id="main_audio"></audio>
+                <div class="audio_timer">
+                    <span class="current_timer">0:00</span>
+                    <span class="max_timer">0:00</span>
+                </div>
+
+
+            </div>
+            <div class="audio_controls">
+                <span class="material-icons repeat">
+                    repeat
+                </span>
+                <span class="material-icons prev_song">
+                    skip_previous
+                </span>
+                <div class="audio_play_wrapper">
+                    <span class="material-icons">
+                        play_arrow
+                    </span>
+                </div>
+                <span class="material-icons next_song">
+                    skip_next
+                </span>
+                <span class="material-icons playlist ">
+                    playlist_add
+                </span>
+
+
+            </div>
+
+            <div class="audio_list_wrapper">
+                <div class="audio_list_top">
+                    <span class="material-icons">
+                        playlist_add
+                    </span>
+                    <span class="material-icons close">
+                        close
+                    </span>
+                </div>
+                <ul class="audio_list">
+
+                </ul>
+            </div>
+
+        </div>
+        <input type="range" value="30" max="100" onchange="voleum()" class="volume">
+
+    </section>
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
